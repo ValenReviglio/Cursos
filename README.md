@@ -1,2 +1,2 @@
 # Cursos
-This is a repository that contains all the practical and theoretical content that I generate as a result of the courses that i took
+Este repositorio contiene todo el contenido practico y teorico que se genere como resultado de los cursos que tomé.
