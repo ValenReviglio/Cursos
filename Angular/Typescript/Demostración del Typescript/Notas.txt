@@ -1,0 +1,11 @@
+El comando "tsc [archivo]" sirve para compilar el archivo el cuestion. 
+El comando "tsc [archivo] -w" permite entrar en modo observador, entonces 
+siempre que typescript detecte un cambio (cuando guardamos el archivo ts) lo compila.
+Para no tener que estar haciendo "tsc [archivo] -w" por cada archivo del proyecto para 
+que typescript observe a cada uno. Es decir ahora queremos que typescript escuche los cambios
+de todos los arhcivos de nuestro proyecto, para eso usamos el comando: "tsc -init", para indicarle que 
+este es un proyecto de typescript. A partir de este se crea un nuevo archivo en nuestra carpeta llamado
+"tsconfig.json", con toda la configuración de nuestro compilador typescript.
+
+Recorda del archivo "tsconfig.json":
+"target":es5 --> La version de javascript a la que yo quiero compilar mi archivo .ts
