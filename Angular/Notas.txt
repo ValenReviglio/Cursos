@@ -1,0 +1,8 @@
+A traves del comando ng new 'nombre-del-proyecto' se crea un proyecto angular con la estructura basica.
+Para levantar un servidor local para que funcione nuestro proyecto se utiliza el comando ng serve -p [Numero de puerto] -o
+La opcion '-p' permite definir el numero de puerto en el que se desea que nuestro servidor este escuchando. La opcion '-o' 
+que se abra automaticamente el navegador en la direccion correspondiente a nuestro proyecto una vez que el servidor este funcionando.
+
+Con el comando ng g c [carpeta y nombre del componente], se genera una nueva componente de angular con todas las carpetas necesarias y con las
+exportaciones e importaciones requeridas. 
+por ejemplo ng g c components/footer 
