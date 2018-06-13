@@ -32,4 +32,4 @@ interface Heroe {
     aparicion: string;
     casa: string;
   }
-}
+
